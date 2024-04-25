@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./hackathon.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+  <div class="main">
+    <div>
+      <table class="table">
+
+        <!-- thead start -->
+        <thead class="table-dark">
+          <tr>
+            <td colspan="2">
+              <p>Players: <span id="displayPlayers">1</span></p>
+              <p>Totol Points: <span id="displayTotolPoints">2</span></p>
+            </td>
+            <td colspan="8">
+              <h2>Bảng điểm</h2>
+            </td>
+          </tr>
+        </thead>
+        <!-- thead end -->
+
+        <!-- tbody start -->
+        <tbody id="body">
+          <!-- <tr>
+            <td style="width: 50px;"><i onclick="deletePlayer()" class="fa-solid fa-xmark"></i></td>
+            <td style="width: 50px;"><i class="fa-solid fa-crown"></i></td>
+            <td colspan="5">Nguyễn Văn Phúc</td>
+            <td><button onclick="reducePoint()">-</button></td>
+            <td>1</td>
+            <td><button onclick="addPoint()">+</button></td>
+          </tr> -->
+        </tbody>
+        <!-- tbody end -->
+        
+        <!-- tfoot start -->
+        <tfoot class="table-dark">
+          <tr>
+            <td colspan="7">
+              <input id="input" type="text" placeholder="Enter a player's name">
+            </td>
+            <td colspan="3">
+              <button onclick="createPlayer()"><b>ADD PLAYER</b></button>
+            </td>
+          </tr>
+        </tfoot>
+        <!-- tfoot end -->
+      </table>
+    </div>
+  </div>
+
+  <script src="./hackathon.js"></script>
+</body>
+</html>

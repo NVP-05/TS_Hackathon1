@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #c5c1c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main a{
+    text-decoration: none;
+}
+
+.main input{
+    width: 95%;
+    height: 30px;
+    background-color: rgb(18, 216, 216);
+    border-radius: 5px;
+}
+
+.main .table{
+    border-collapse: collapse;
+    width: 600px;
+    height: auto; 
+    text-align: center;
+}
+
+.main .table thead{
+    text-align: center;
+    background-color: aqua;
+}
+
+.main .table tbody {
+    background-color: #fff;
+    height: 40px;
+}
+
+.main .table tbody button {
+    width: 40px;
+    height: 30px;
+    border: 0;
+}
+
+.main .table tfoot{
+    background-color: aqua;
+    height: 40px;
+}
+
+.main .table tfoot button {
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+    background-color: #fff;
+}
